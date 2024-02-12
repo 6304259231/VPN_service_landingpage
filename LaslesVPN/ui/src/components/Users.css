@@ -1,0 +1,61 @@
+#users-section{
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 8px grey;
+    width: 1140px;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 8%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+
+}
+#users-section .users{
+    width: 55px;
+    height: 55px;
+}
+#users-section .users img{
+    width: 100%;
+    height: 100%;
+}
+.user-logo-item{
+    display: flex;
+    justify-content: space-around;
+    gap: 22px;
+}
+
+.user-info {
+   width: 54px;
+   height: 65px;
+}
+
+.user-info b{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.user-info p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+
+@media only screen and (max-width : 765px){
+    #users-section{
+        background-color: #FFFFFF;
+        box-shadow: 4px 4px 8px grey;
+        width: 95%;
+        height: auto;
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+       flex-direction: column;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    
+    }
+}

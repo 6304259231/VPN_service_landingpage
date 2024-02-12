@@ -1,0 +1,29 @@
+#network-section{
+    margin: 60px;
+}
+#plans-head-section h2{
+    width: 383.4px;
+}
+
+#plans-head-section p{
+    margin-top: 20px;
+    width: 555px;
+}
+.global-img-section{
+   width: 1060px;
+   margin: 60px auto;
+}
+.global-img-section img{
+    width: 100%;
+}
+
+@media only screen and (max-width : 765px){
+    #network-section{
+        width: 100%;
+        margin-left: 4px;
+    }
+    .global-img-section{
+        width: 95%;
+        margin: 60px auto;
+     }
+}

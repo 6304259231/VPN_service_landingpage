@@ -1,0 +1,85 @@
+#plans-section{
+    padding: 60px;
+    margin-left: 8%;
+}
+#plans-head-section h2{
+    font-size: 500;
+    font-weight: 35px;
+    line-height: 50px;
+    color : #0B132A;
+}
+
+#plans-head-section p{
+    width: 555px;
+    font-size: 400;
+    font-weight: 16px;
+    line-height: 30px;
+    color : #4F5665;
+}
+#select-plans-section{
+    margin: 60px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#select-plans-section .card{
+    width: 330px;
+    height: 760px;
+    border-radius: 10px;
+    background-color: #FFFFFF; 
+    border: 2px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.card .top-section,.bottom-section{
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.card .top-section h2{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color :#0B132A;
+}
+.card .top-section .top-img img{
+    width: 145px;
+    height: 165.4px;
+}
+
+.card .top-section h2{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color :#0B132A;
+    
+}
+
+#select-plans-section .c-active{
+    border: 2px solid #F53838;
+}
+
+@media only screen and (max-width : 765px){
+    #plans-section{
+        padding: 20px;
+        margin-left: 4px;
+        width: 100%;
+    }
+    #select-plans-section{
+        display: inline-block;
+
+    }
+    #select-plans-section .card{
+        margin: 22px; 
+    }
+    #plans-head-section h2,p{
+       text-overflow: wrap;
+       margin-left: 2px;
+
+       
+    }
+}
